@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/f95a46f9de.js" crossorigin="anonymous"></script>
+    <title>Contact</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Comfortaa:wght@300&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/f95a46f9de.js" crossorigin="anonymous"></script>
+
+
+    <style>
+        body {
+            font-family: 'Comfortaa', cursive;
+            color: black;
+            margin: 0px;
+            padding: 0px;
+            overflow: hidden;
+
+        }
+
+        .mid {
+            display: block;
+            width: 50%;
+            margin: 29px auto;
+            top: 200px;
+            left: 100px;
+            position: absolute;
+
+        }
+
+        .form-group input {
+            font-family: 'Comfortaa', cursive;
+            text-align: center;
+            display: block;
+            width: 200px;
+            padding: 1px;
+            border: 2px;
+            margin: 11px auto;
+            font-size: 15px;
+            border-radius: 0px;
+        }
+
+        .btn {
+            font-family: 'Comfortaa', cursive;
+            margin: 0px 9px;
+            background-color: #e36c6c;
+            color: white;
+            padding: 4px 14px;
+            border-radius: 0;
+            font-size: 10px;
+            cursor: pointer;
+
+        }
+
+        .btn:hover {
+            background-color: rgb(124, 53, 53);
+        }
+
+        .Talk {
+            position: absolute;
+            top: 100px;
+            left: 100px;
+            color: rgba(223, 37, 86, 0.8);
+            font-size: 50px;
+        }
+
+        .info {
+            font-family: 'Comfortaa', cursive;
+            position: absolute;
+            right: 500px;
+            top: 200px;
+            margin: 0px;
+            padding: 0px;
+            /*display: inline-block;*/
+        }
+
+        .icons {
+
+            top: 500x;
+            right: 110px;
+            position: absolute;
+            display: inline;
+        }
+
+        .icons :hover,
+        .icons i b.active {
+            color: teal;
+        }
+
+        .container {
+            border: 2px;
+            margin: 5px 5px;
+            padding: 30px;
+            width: 50%;
+            border-radius: 0px;
+            background: #eebea2;
+            background-position: 50%;
+            width: 600px;
+            height: 700px;
+        }
+
+        .right {
+            position: absolute;
+            right: 60px;
+            top: 20px;
+            display: inline-block;
+
+        }
+
+        .navbar {
+            display: inline-block;
+            right: 700px;
+            top: 30;
+        }
+
+        .navbar li {
+            display: inline-block;
+            font-size: 15px;
+        }
+
+        .navbar li a {
+            color: black;
+            text-decoration: none;
+            padding: 20px 20px;
+
+        }
+
+        .navbar li a:hover,
+        .navbar li a.active {
+            text-decoration: underline;
+            color: grey;
+
+        }
+
+        .left {
+            display: inline-block;
+            position: absolute;
+            left: 60px;
+            top: 30px;
+            font-size: 26px;
+            font-family: 'Comfortaa';
+        }
+    </style>
+</head>
+
+
+
+<body>
+    <header class="header">
+        <div class="left">
+            <div>Srishti Dey/ Developer</div>
+        </div>
+        <!-- right box for navbar -->
+        <div class="right">
+            <ul class="navbar">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="skills.html">Resume</a></li>
+                <li><a href="project.html">Project</a></li>
+                <li><a href="contact.html" class="active">Contact</a></li>
+            </ul>
+        </div>
+
+    </header>
+
+    <header class="header">
+
+        <div class="Talk">
+            <div>Let's Talk</div>
+        </div>
+        <div class="mid">
+            <div class="form-group">
+                <form action=https://formspree.io/f/mzbyqvgb method="POST">
+                    <div>
+                        First Name:<input type="text" name="name">
+                        Last Name:<input type="text" name="name">
+                    </div>
+                    <div>
+                        Email:<input type="email" name="_replyto">
+                    </div>
+                    <div>
+                        Type your message here...:<input type="text" name="message"><br>
+                    </div>
+                    <button class="btn" type="submit" value="send">Submit</button>
+            </div>
+        </div>
+        </form>
+        <div class="container">
+            <div class="info">
+                <div>
+                    <h1>Srishti Dey</h1>
+                </div>
+                <div>
+                    <h6>Developer and coder</h6>
+                </div>
+                <div style="top: 500px;">Email: srishti.alfa@gmail.com</div><br>
+                <div>Phone:9674950095</div><br>
+                <div class="icons">
+                    <b href="#!">
+                        <i class="fab fa-twitter " ; style="padding: 0.4rem;"></i>
+                    </b>
+                    <b href="#!">
+                        <i class="fab fa-facebook  " ; style="padding: 0.4rem;"></i>
+                    </b>
+                    <b href="#!">
+                        <i class="fab fa-linkedin" ; style="padding: 0.4rem;"></i>
+                    </b>
+                    <b href="#!">
+                        <i class="fab fa-instagram" ; style="padding: 0.4rem;"></i>
+                    </b>
+                </div>
+            </div>
+        </div>
+        >
+    </header>
+</body>
+
+</html>
